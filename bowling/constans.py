@@ -1,0 +1,2 @@
+ALL_PINS = 10
+FRAMES = 10
