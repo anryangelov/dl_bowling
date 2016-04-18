@@ -49,8 +49,6 @@ def roll(request, pins=None):
         last_player, curr_frame = create_player_and_frame()
         player_frames = [curr_frame]
         num_frames = 1
-        print(last_player)
-        print(curr_frame.pk, curr_frame)
         previuos_frame, old_frame = None, None
         pins = roll1(pins, curr_frame, previuos_frame, old_frame, num_frames)
 
